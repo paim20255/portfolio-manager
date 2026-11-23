@@ -1,6 +1,6 @@
 package com.pluralsight.finance;
 
-public class Asset implements Valuable {
+public abstract class Asset implements Valuable {
     private String name;
     private double marketValue;
 
